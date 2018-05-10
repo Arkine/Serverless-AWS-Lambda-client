@@ -11,7 +11,7 @@ export default class Home extends Component {
         this.state = {
             isLoading: true,
             notes: []
-        };
+        };        
     }
 
     async componentDidMount() {
